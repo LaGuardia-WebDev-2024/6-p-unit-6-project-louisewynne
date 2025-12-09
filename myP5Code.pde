@@ -11,6 +11,18 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+
+  //Portrait of Lydia Delectorskaya Henri Matisse,
+
+  strokeWeight(6)
+  line(170,0,100,68)
+  line(170,0,300,75)
+  line(300,75,300,192)
+  line(100,68,100,150)
+  line(100,150,170,250)
+  line(170,250,170,395)
+  line(170,395,230,310)
+  
   
 
   
