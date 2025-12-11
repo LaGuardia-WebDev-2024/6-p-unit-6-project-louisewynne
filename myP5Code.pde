@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(212, 127, 53,255);
 }
 
 
@@ -14,6 +14,7 @@ void draw(){
 
   //Portrait of Lydia Delectorskaya Henri Matisse,
 
+  //face
   strokeWeight(6)
   line(170,0,100,68)
   line(170,0,300,75)
@@ -22,9 +23,9 @@ void draw(){
   line(100,150,170,250)
   line(170,250,170,395)
   line(170,395,230,310)
-  
-  
 
+  //hair
+  arc(230, 260, 100, 50, 90, 180);
   
 
 }
