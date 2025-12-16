@@ -12,7 +12,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
-  //Portrait of Lydia Delectorskaya Henri Matisse,
+  //Portrait of Lydia Delectorskaya by Henri Matisse,
 
   //face
   strokeWeight(6)
@@ -34,7 +34,14 @@ void draw(){
   arc(-80, 355, 120, 60, radians (-190), radians (-30));
   rotate (1);
   line(272,205,300,192)
+  fill(0,0,0,0)
   arc(250,80,250,250,radians(-100),radians(30))
+  arc(360,195,150,100,radians(-450),radians(-330))
+  arc(100,90,100,230,radians(-190),radians(-70))
+  arc(24,125,60,50,radians(-180),radians(-30))
+  arc(0,150,50,30,radians(-360),radians(-200))
+  arc(15,160,35,40,radians(-30),radians(100))
+  arc(30,175,50,40,radians(-290),radians(-210))
  
   
 
