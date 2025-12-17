@@ -24,11 +24,17 @@ void draw(){
   line(170,250,170,395)
 
   //clothes
+  fill(0,0,0,0)
   line(170,395,290,230)
   line(290,230,400,300)
   line(230,310,220,400)
+  line(170,300,100,350)
+  arc(135,395,150,100,radians(-190),radians(-120))
+  line(140,320,50,320)
+  line(50,320,50,400)
 
   //hair
+  //right side
   rotate (-1);
   fill (35, 117, 53)
   arc(-80, 355, 120, 60, radians (-190), radians (-30));
@@ -37,12 +43,30 @@ void draw(){
   fill(0,0,0,0)
   arc(250,80,250,250,radians(-100),radians(30))
   arc(360,195,150,100,radians(-450),radians(-330))
-  arc(100,90,100,230,radians(-190),radians(-70))
+  //left side
   arc(24,125,60,50,radians(-180),radians(-30))
+  arc(100,90,100,230,radians(-190),radians(-70))
   arc(0,150,50,30,radians(-360),radians(-200))
   arc(15,160,35,40,radians(-30),radians(100))
   arc(30,175,50,40,radians(-290),radians(-210))
+  line(35,195,30,215)
+  line(30,215,20,225)
+  line(20,225,20,255)
+  arc(35,270,50,50,radians(-340),radians(-140))
+  arc(82,262,65,60,radians(-320),radians(-220))
+  line(107,275,117,275)
+  arc(130,280,25,50,radians(-270),radians(-180))
+  arc(133,310,10,17,radians(-270),radians(-130))
+
+  //eyebrows
+  rotate(.2)
+  arc(160,60,70,18,radians(-170),radians(-30))
+  rotate(-.2)
  
+ //nose
+ line(175,90,175,180)
+ line(175,180,192,170)
+
   
 
 }
