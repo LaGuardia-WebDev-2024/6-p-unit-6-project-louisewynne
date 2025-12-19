@@ -14,6 +14,105 @@ void draw(){
 
   //Portrait of Lydia Delectorskaya by Henri Matisse,
 
+  //colors
+
+
+  //shirt
+  noStroke()
+  fill(108,149,173)
+  beginShape();
+  vertex(170,400);
+  vertex(170,300);
+  vertex(60, 350);
+  vertex(60, 400);
+  endShape();
+  fill(237,234,228)
+  beginShape();
+  vertex(230,310);
+  vertex(220,400);
+  vertex(170,400);
+  endShape();
+
+  //hair
+  fill (35, 117, 53)
+  beginShape();
+  vertex(72, 0);
+  vertex(56, 42);
+  vertex(52, 109);
+  vertex(53, 103);
+  vertex(41,106);
+  vertex(0,117);
+  vertex(0,168);
+  vertex(18,163);
+  vertex(30,153);
+  vertex(32,173);
+  vertex(5,188);
+  vertex(35,198);
+  vertex(30,215);
+  vertex(22,227);
+  vertex(20,255);
+  vertex(10,265);
+  vertex(170,277);
+  vertex(170,0);
+  endShape();
+  ellipse(20,125,50,50)
+  ellipse(32,270,50,50)
+  ellipse(82,270,50,40)
+  ellipse(150,280,60,60)
+  ellipse(140,310,20,20)
+  ellipse(250,75,250,250)
+  ellipse(360,243,200,200)
+  ellipse(260,282,60,70)
+
+  //jacket
+  fill(122,120,114)
+  beginShape();
+  vertex(222,400);
+  vertex(230,310);
+  vertex(290,230);
+  vertex(400,300);
+  vertex(400,400);
+  endShape();
+
+  beginShape();
+  vertex(50, 400);
+  vertex(50,320);
+  vertex(140,320);
+  vertex(102,350);
+  vertex(79,360);
+  vertex(70,374);
+  vertex(66,383);
+  vertex(62,400);
+  endShape();
+  
+  //yellow face
+  fill(252,195,87)
+  beginShape();
+  vertex(170, 0);
+  vertex(300, 75);
+  vertex(300, 192);
+  vertex(260, 215);
+  vertex(242,236);
+  vertex(230,250);
+  vertex(220,280);
+  vertex(230,315,);
+  vertex(170,400);
+  endShape();
+
+  //blue face
+  fill(108,149,173)
+  beginShape();
+  vertex(170, 0);
+  vertex(100, 68);
+  vertex(100, 150);
+  vertex(173, 250);
+  endShape();
+
+
+  //lines
+
+  stroke(0,0,0)
+
   //face
   strokeWeight(6)
   line(170,0,100,68)
@@ -98,6 +197,9 @@ arc(183,202,30,20,radians(30),radians(150))
 strokeWeight(5)
 line(162,213,185,225)
 line(185,225,205,208)
+
+//earing
+arc(300,180,40,30,radians(-250),radians(-90))
 
 
   
